@@ -1,0 +1,189 @@
+SpellLevel,Name,Save,School,Verbal,Somatic,Material,Bard,Cleric,Druid,Paladin,Ranger,Sorcerer,Warlock,Wizard,Concentration,Source,Page
+0,Acid Splash,Dexterity,Conjuration,1,1,0,0,0,0,0,0,1,0,1,0,PHB,211
+0,Create Bonfire,Dexterity,Conjuration,1,1,0,0,0,1,0,0,1,1,1,1,XGE,152
+0,Frostbite,Constitution,Evocation,1,1,0,0,0,1,0,0,1,1,1,0,XGE,156
+0,Gust,Strength,Transmutation,1,1,0,0,0,1,0,0,1,0,1,0,XGE,157
+0,Infestation,Constitution,Conjuration,1,1,1,0,0,1,0,0,1,1,1,0,XGE,158
+0,Light,Dexterity,Evocation,1,0,1,1,1,0,0,0,1,0,1,0,PHB,255
+0,Poison Spray,Constitution,Conjuration,1,1,0,0,0,1,0,0,1,1,1,0,PHB,266
+0,Thunderclap,Constitution,Evocation,0,1,0,1,0,1,0,0,1,1,1,0,XGE,168
+0,Sacred Flame,Dexterity,Evocation,1,1,0,0,1,0,0,0,0,0,0,0,PHB,272
+0,Toll the Dead,Wisdom,Necromancy,1,1,0,0,1,0,0,0,0,1,1,0,XGE,169
+0,Vicious Mockery,Wisdom,Enchantment,1,0,0,1,0,0,0,0,0,0,0,0,PHB,285
+0,Word of Radiance,Constitution,Evocation,1,0,1,0,1,0,0,0,0,0,0,0,XGE,171
+1,Catapult,Dexterity,Transmutation,0,1,0,0,0,0,0,0,1,0,1,0,XGE,150
+1,Animal Friendship,Wisdom,Enchantment,1,1,1,1,0,1,0,1,0,0,0,0,PHB,212
+1,Bane,Charisma,Enchantment,1,1,1,1,1,0,0,0,0,0,0,1,PHB,216
+1,Cause Fear,Wisdom,Necromancy,1,0,0,0,0,0,0,0,0,1,1,1,XGE,151
+1,Burning hands,Dexterity,Evocation,1,1,0,0,0,0,0,0,1,0,1,0,PHB,220
+1,Charm Person,Wisdom,Enchantment,1,1,0,1,0,1,0,0,1,1,1,0,PHB,221
+1,Command,Wisdom,Enchantment,1,0,0,0,1,0,1,0,0,0,0,0,PHB,223
+1,Compelled Duel,Wisdom,Enchantment,1,0,0,0,0,0,1,0,0,0,0,1,PHB,224
+1,Earth Tremor,Dexterity,Evocation,1,1,0,1,0,1,0,0,1,0,1,0,XGE,154
+1,Dissonant Whispers,Wisdom,Enchantment,1,0,0,1,0,0,0,0,0,0,0,0,PHB,234
+1,Ensnaring Strike,Strength,Conjuration,1,0,0,0,0,0,0,1,0,0,0,1,PHB,237
+1,Entangle,Strength,Conjuration,1,1,0,0,0,1,0,0,0,0,0,1,PHB,238
+1,Faerie Fire,Dexterity,Evocation,1,0,0,1,0,1,0,0,0,0,0,1,PHB,239
+1,Grease,Dexterity,Conjuration,1,1,1,0,0,0,0,0,0,0,1,0,PHB,246
+1,Hail of Thorns,Dexterity,Conjuration,1,0,0,0,0,0,0,1,0,0,0,0,PHB,249
+1,Hellish Rebuke,Dexterity,Evocation,1,1,0,0,0,0,0,0,0,1,0,0,PHB,250
+1,Snare,Dexterity,Abjuration,0,1,1,0,0,1,0,1,0,0,1,0,XGE,165
+1,Ray of Sickness,Constitution,Necromancy,1,1,0,0,0,0,0,0,1,0,1,0,PHB,271
+1,Sanctuary,Wisdom,Abjuration,1,1,1,0,1,0,0,0,0,0,0,0,PHB,272
+1,Searing Smite,Constitution,Evocation,1,1,0,0,0,0,1,0,0,0,0,1,PHB,274
+1,Tasha's Hideous Laughter,Wisdom,Enchantment,1,1,1,1,0,0,0,0,0,0,1,1,PHB,280
+1,Thunderous Smite,Strength,Evocation,1,0,0,0,0,0,1,0,0,0,0,1,PHB,282
+1,Thunderwave,Constitution,Evocation,1,1,0,1,0,1,0,0,1,0,1,0,PHB,282
+1,Wrathful Smite,Wisdom,Evocation,1,0,0,0,0,0,1,0,0,0,0,1,PHB,289
+2,Aganazzar's Scorcher,Dexterity,Evocation,1,1,1,0,0,0,0,0,1,0,1,0,XGE,150
+2,Dragon's Breath,Dexterity,Transmutation,1,1,1,0,0,0,0,0,1,0,1,0,XGE,154
+2,Blindness/Deafness,Constitution,Necromancy,1,0,0,1,1,0,0,0,1,0,1,0,PHB,219
+2,Calm Emotions,Charisma,Enchantment,1,1,0,1,1,0,0,0,0,0,0,1,PHB,221
+2,Dust Devil,Strength,Conjuration,1,1,1,0,0,1,0,0,1,0,1,1,XGE,154
+2,Cordon of Arrows,Dexterity,Transmutation,1,1,1,0,0,0,0,1,0,0,0,0,PHB,228
+2,Crown of Madness,Wisdom,Enchantment,1,1,0,1,0,0,0,0,1,1,1,1,PHB,229
+2,Earthbind,Strength,Transmutation,1,0,0,0,0,1,0,0,1,1,1,1,XGE,154
+2,Detect Thoughts,Wisdom,Divination,1,1,1,1,0,0,0,0,1,0,1,1,PHB,231
+2,Enlarge/Reduce,Constitution,Transmutation,1,1,1,0,0,0,0,0,1,0,1,1,PHB,237
+2,Enthrall,Wisdom,Enchantment,1,1,0,1,0,0,0,0,0,1,0,0,PHB,238
+2,Flaming Sphere,Dexterity,Conjuration,1,1,1,0,0,1,0,0,0,0,1,1,PHB,242
+2,Gust of Wind,Strength,Evocation,1,1,1,0,0,1,0,0,1,0,1,1,PHB,248
+2,Heat Metal,Constitution,Transmutation,1,1,1,1,0,1,0,0,0,0,0,1,PHB,250
+2,Hold Person,Wisdom,Enchantment,1,1,1,1,1,1,0,0,1,1,1,1,PHB,251
+2,Levitate,Constitution,Transmutation,1,1,1,0,0,0,0,0,1,0,1,1,PHB,255
+2,Maximilian's Earthen Grasp,Strength,Transmutation,1,1,1,0,0,0,0,0,1,0,1,1,XGE,161
+2,Moonbeam,Constitution,Evocation,1,1,1,0,0,1,0,0,0,0,0,1,PHB,261
+2,Mind Spike,Wisdom,Divination,0,1,0,0,0,0,0,0,1,1,1,1,XGE,162
+2,Phantasmal Force,Intelligence,Illusion,1,1,1,1,0,0,0,0,1,0,1,1,PHB,264
+2,Pyrotechnics,Constitution,Transmutation,1,1,0,1,0,0,0,0,1,0,1,0,XGE,163
+2,Snilloc's Snowball Swarm,Dexterity,Evocation,1,1,1,0,0,0,0,0,1,0,1,0,XGE,165
+2,Ray of Enfeeblement,Constitution,Necromancy,1,1,0,0,0,0,0,0,0,1,1,1,PHB,271
+2,Shatter,Constitution,Evocation,1,1,1,1,0,0,0,0,1,1,1,0,PHB,275
+2,Suggestion,Wisdom,Enchantment,1,0,1,1,0,0,0,0,1,1,1,1,PHB,279
+2,Web,Dexterity,Conjuration,1,1,1,0,0,0,0,0,1,0,1,1,PHB,287
+2,Zone of Truth,Charisma,Enchantment,1,1,0,1,1,0,1,0,0,0,0,0,PHB,289
+3,Bestow Curse,Wisdom,Necromancy,1,1,0,1,1,0,0,0,0,0,1,1,PHB,218
+3,Blinding Smite,Constitution,Evocation,1,0,0,0,0,0,1,0,0,0,0,1,PHB,219
+3,Call Lightning,Dexterity,Conjuration,1,1,0,0,0,1,0,0,1,0,0,1,PHB,220
+3,Conjure Barrage,Dexterity,Conjuration,1,1,1,0,0,0,0,1,0,0,0,0,PHB,225
+3,Enemies Abound,Intelligence,Enchantment,1,1,0,1,0,0,0,0,1,1,1,1,XGE,155
+3,Erupting Earth,Dexterity,Transmutation,1,1,1,0,0,1,0,0,1,0,1,0,XGE,155
+3,Fear,Wisdom,Illusion,1,1,1,1,0,0,0,0,1,1,1,1,PHB,239
+3,Fireball,Dexterity,Evocation,1,1,1,0,0,0,0,0,1,0,1,0,PHB,241
+3,Glyph of Warding,Dexterity,Abjuration,1,1,1,1,1,0,0,0,0,0,1,0,PHB,245
+3,Hunger of Hadar,Dexterity,Conjuration,1,1,1,0,0,0,0,0,0,1,0,1,PHB,251
+3,Hypnotic Pattern,Wisdom,Illusion,0,1,1,1,0,0,0,0,1,1,1,1,PHB,252
+3,Lightning Arrow,Dexterity,Transmutation,1,1,0,0,0,0,0,1,0,0,0,1,PHB,255
+3,Lightning Bolt,Dexterity,Evocation,1,1,1,0,0,0,0,0,1,0,1,0,PHB,255
+3,Magic Circle,Charisma,Abjuration,1,1,1,0,1,0,1,0,0,1,1,0,PHB,256
+3,Melf's Minute Meteors,Dexterity,Evocation,1,1,1,0,0,0,0,0,1,0,1,1,XGE,161
+3,Thunder Step,Constitution,Conjuration,1,0,0,0,0,0,0,0,1,1,1,0,XGE,168
+3,Tidal Wave,Dexterity,Conjuration,1,1,1,0,0,1,0,0,1,0,1,0,XGE,168
+3,Sleet Storm,Dexterity,Conjuration,1,1,1,0,0,1,0,0,1,0,1,1,PHB,276
+3,Slow,Wisdom,Transmutation,1,1,1,0,0,0,0,0,1,0,1,1,PHB,277
+3,Spirit Guardians,Wisdom,Conjuration,1,1,1,0,1,0,0,0,0,0,0,1,PHB,278
+3,Stinking Cloud,Constitution,Conjuration,1,1,1,1,0,0,0,0,1,0,1,1,PHB,278
+3,Wind Wall,Strength,Evocation,1,1,1,0,0,1,0,1,0,0,0,1,PHB,288
+4,Charm Monster,Wisdom,Enchantment,1,1,0,1,0,1,0,0,1,1,1,0,XGE,151
+4,Banishment,Charisma,Abjuration,1,1,1,0,1,0,1,0,1,1,1,1,PHB,217
+4,Blight,Constitution,Necromancy,1,1,0,0,0,1,0,0,1,1,1,0,PHB,219
+4,Compusion,Wisdom,Enchantment,1,1,0,1,0,0,0,0,0,0,0,1,PHB,224
+4,Confusion,Wisdom,Enchantment,1,1,1,1,0,1,0,0,1,0,1,1,PHB,224
+4,Control Water,Strength,Transmutation,1,1,1,0,1,1,0,0,0,0,1,1,PHB,227
+4,Elemental Bane,Constitution,Transmutation,1,1,0,0,0,1,0,0,0,1,1,1,XGE,155
+4,Dominate Beast,Wisdom,Enchantment,1,1,0,0,0,1,0,0,1,0,0,1,PHB,234
+4,Evard's Black Tentacles,Dexterity,Conjuration,1,1,1,0,0,0,0,0,0,0,1,1,PHB,238
+4,Grasping Vine,Dexterity,Conjuration,1,1,0,0,0,1,0,1,0,0,0,1,PHB,246
+4,Guardian of Faith,Dexterity,Conjuration,1,0,0,0,1,0,0,0,0,0,0,0,PHB,246
+4,Ice Storm,Dexterity,Evocation,1,1,1,0,0,1,0,0,1,0,1,0,PHB,252
+4,Otiluke's Resilient Sphere,Dexterity,Evocation,1,1,1,0,0,0,0,0,0,0,1,1,PHB,264
+4,Phantasmal Killer,Wisdom,Illusion,1,1,0,0,0,0,0,0,0,0,1,1,PHB,265
+4,Sickening Radiance,Constitution,Evocation,1,1,0,0,0,0,0,0,1,1,1,1,XGE,164
+4,Polymorph,Wisdom,Transmutation,1,1,1,1,0,1,0,0,1,0,1,1,PHB,266
+4,Storm Sphere,Strength,Evocation,1,1,0,0,0,0,0,0,1,0,1,1,XGE,166
+4,Staggering Smite,Wisdom,Evocation,1,0,0,0,0,0,1,0,0,0,0,1,PHB,278
+4,Vitriolic Sphere,Dexterity,Evocation,1,1,1,0,0,0,0,0,1,0,1,0,XGE,170
+4,Wall of Fire,Dexterity,Evocation,1,1,1,0,0,1,0,0,1,0,1,1,PHB,285
+4,Watery Sphere,Strength,Conjuration,1,1,1,0,0,1,0,0,1,0,1,1,XGE,170
+5,Dawn,Constitution,Evocation,1,1,1,0,1,0,0,0,0,0,1,1,XGE,153
+5,Cone of Cold,Constitution,Evocation,1,1,1,0,0,0,0,0,1,0,1,0,PHB,224
+5,Conjure Volley,Dexterity,Conjuration,1,1,1,0,0,0,0,1,0,0,0,0,PHB,226
+5,Contagion,Constitution,Necromancy,1,1,0,0,1,1,0,0,0,0,0,0,PHB,227
+5,Destructive Wave,Constitution,Evocation,1,0,0,0,0,0,1,0,0,0,0,0,PHB,231
+5,Dispel Evil and Good,Charisma,Abjuration,1,1,1,0,1,0,1,0,0,0,0,0,PHB,233
+5,Enervation,Dexterity,Necromancy,1,1,0,0,0,0,0,0,1,1,1,1,XGE,155
+5,Dominate Person,Wisdom,Enchantment,1,1,0,1,0,0,0,0,1,0,1,1,PHB,235
+5,Dream,Wisdom,Illusion,1,1,1,1,0,0,0,0,0,1,1,0,PHB,236
+5,Holy Weapon,Constitution,Evocation,1,1,0,0,1,0,1,0,0,0,0,1,XGE,157
+5,Flame Strike,Dexterity,Evocation,1,1,1,0,1,0,0,0,0,0,0,0,PHB,242
+5,Immolation,Dexterity,Evocation,1,0,0,0,0,0,0,0,1,0,1,1,XGE,158
+5,Geas,Wisdom,Enchantment,1,0,0,1,1,1,1,0,0,0,1,0,PHB,244
+5,Hallow,Charisma,Enchantment,1,1,1,0,1,0,0,0,0,0,0,0,PHB,249
+5,Hold Monster,Wisdom,Enchantment,1,1,1,1,0,0,0,0,1,1,1,1,PHB,251
+5,Maelstrom,Strength,Evocation,1,1,1,0,0,1,0,0,0,0,0,1,XGE,160
+5,Insect Plague,Constitution,Conjuration,1,1,1,0,1,1,0,0,1,0,0,1,PHB,254
+5,Modify Memory,Wisdom,Enchantment,1,1,0,1,0,0,0,0,0,0,1,1,PHB,261
+5,Negative Energy Flood,Constitution,Necromancy,1,0,1,0,0,0,0,0,0,1,1,0,XGE,163
+5,Planar Binding,Charisma,Abjuration,1,1,1,1,1,1,0,0,0,0,1,0,PHB,265
+5,Synaptic Static,Intelligence,Enchantment,1,1,0,1,0,0,0,0,1,1,1,0,XGE,167
+5,Scrying,Wisdom,Divination,1,1,1,1,1,1,0,0,0,1,1,1,PHB,273
+5,Seeming,Charisma,Illusion,1,1,0,1,0,0,0,0,1,0,1,0,PHB,274
+5,Transmute Rock,Strength,Transmutation,1,1,1,0,0,1,0,0,0,0,1,0,XGE,169
+5,Wall of Light,Constitution,Evocation,1,1,1,0,0,0,0,0,1,1,1,1,XGE,170
+5,Wall of Stone,Dexterity,Evocation,1,1,1,0,0,1,0,0,1,0,1,0,PHB,287
+5,Wrath of Nature,Dexterity,Evocation,1,1,0,0,0,1,0,1,0,0,0,1,XGE,171
+6,Bones of the Earth,Dexterity,Transmutation,1,1,0,0,0,1,0,0,0,0,0,0,XGE,150
+6,Blade Barrier,Dexterity,Evocation,1,1,0,0,1,0,0,0,0,0,0,1,PHB,218
+6,Druid Grove,Strength,Abjuration,1,1,1,0,0,1,0,0,0,0,0,0,XGE,154
+6,Chain Lightning,Dexterity,Evocation,1,1,1,0,0,0,0,0,0,0,1,0,PHB,221
+6,Circle of Death,Constitution,Necromancy,1,1,1,0,0,0,0,0,1,1,1,0,PHB,221
+6,Disintegrate,Dexterity,Transmutation,1,1,1,0,0,0,0,0,1,0,1,0,PHB,233
+6,Eyebite,Wisdom,Necromancy,1,1,0,1,0,0,0,0,1,1,1,1,PHB,238
+6,Flesh to Stone,Constitution,Transmutation,1,1,1,0,0,0,0,0,0,1,1,1,PHB,243
+6,Investiture of Flame,Dexterity,Transmutation,1,1,0,0,0,1,0,0,1,1,1,1,XGE,159
+6,Guards and Wards,Strength,Abjuration,1,1,1,1,0,0,0,0,0,0,1,0,PHB,248
+6,Investiture of Ice,Constitution,Transmutation,1,1,0,0,0,1,0,0,1,1,1,1,XGE,159
+6,Harm,Constitution,Necromancy,1,1,0,0,1,0,0,0,0,0,0,0,PHB,249
+6,Investiture of Stone,Dexterity,Transmutation,1,1,0,0,0,1,0,0,1,1,1,1,XGE,159
+6,Investiture of Wind,Constitution,Transmutation,1,1,0,0,0,1,0,0,1,1,1,1,XGE,160
+6,Magic Jar,Charisma,Necromancy,1,1,1,0,0,0,0,0,0,0,1,0,PHB,257
+6,Mass Suggestion,Wisdom,Enchantment,1,0,1,1,0,0,0,0,1,1,1,0,PHB,258
+6,Mental Prison,Intelligence,Illusion,0,1,0,0,0,0,0,0,1,1,1,1,XGE,161
+6,Otiluke's Freezing Sphere,Constitution,Evocation,1,1,1,0,0,0,0,0,0,0,1,0,PHB,263
+6,Otto's Irresistible Dance,Dexterity,Enchantment,1,0,0,1,0,0,0,0,0,0,1,1,PHB,264
+6,Scatter,Wisdom,Conjuration,1,0,0,0,0,0,0,0,1,1,1,0,XGE,164
+6,Sunbeam,Constitution,Evocation,1,1,1,0,0,1,0,0,1,0,1,1,PHB,279
+6,Wall of Ice,Dexterity,Evocation,1,1,1,0,0,0,0,0,0,0,1,1,PHB,285
+6,Wall of Ice,Constitution,Evocation,1,1,1,0,0,0,0,0,0,0,1,1,PHB,285
+6,Wall of Thorns,Dexterity,Conjuration,1,1,1,0,0,1,0,0,0,0,0,1,PHB,287
+7,Delayed Blast Fireball,Dexterity,Evocation,1,1,1,0,0,0,0,0,1,0,1,1,PHB,230
+7,Divine Word,Charisma,Evocation,1,0,0,0,1,0,0,0,0,0,0,0,PHB,234
+7,Finger of Death,Constitution,Necromancy,1,1,0,0,0,0,0,0,1,1,1,0,PHB,241
+7,Fire Storm,Dexterity,Evocation,1,1,0,0,1,1,0,0,1,0,0,0,PHB,242
+7,Forcecage,Charisma,Evocation,1,1,1,1,0,0,0,0,0,1,1,0,PHB,243
+7,Plane Shift,Charisma,Conjuration,1,1,1,0,1,1,0,0,1,1,1,0,PHB,266
+7,Prismatic Spray,Dexterity,Evocation,1,1,0,0,0,0,0,0,1,0,1,0,PHB,267
+7,Reverse Gravity,Dexterity,Transmutation,1,1,1,0,0,1,0,0,1,0,1,1,PHB,272
+7,Temple of the Gods,Charisma,Conjuration,1,1,1,0,1,0,0,0,0,0,0,0,XGE,167
+7,Symbol,Constitution,Abjuration,1,1,1,1,1,0,0,0,0,0,1,0,PHB,280
+7,Whirlwind,Dexterity,Evocation,1,0,1,0,0,1,0,0,1,0,1,1,XGE,171
+8,Abi-Dalzim's Horrid Wilting,Constitution,Necromancy,1,1,1,0,0,0,0,0,1,0,1,0,XGE,150
+8,Antipathy/Sympathy,Wisdom,Enchantment,1,1,1,0,0,1,0,0,0,0,1,0,PHB,214
+8,Cloudkill,Constitution,Conjuration,1,1,0,0,0,0,0,0,1,0,1,1,PHB,222
+8,Dominate Monster,Wisdom,Enchantment,1,1,0,1,0,0,0,0,1,1,1,0,PHB,235
+8,Earthquake,Dexterity,Evocation,1,1,1,0,1,1,0,0,1,0,0,1,PHB,236
+8,Illusory Dragon,Intelligence,Illusion,0,1,0,0,0,0,0,0,0,0,1,1,XGE,157
+8,Feeblemind,Intelligence,Enchantment,1,1,1,1,0,1,0,0,0,1,1,0,PHB,239
+8,Holy Aura,Constitution,Abjuration,1,1,1,0,1,0,0,0,0,0,0,1,PHB,251
+8,Maddening Darkness,Wisdom,Evocation,1,0,1,0,0,0,0,0,0,1,1,1,XGE,160
+8,Incendiary Cloud,Dexterity,Conjuration,1,1,0,0,0,0,0,0,1,0,1,1,PHB,253
+8,Sunburst,Constitution,Evocation,1,1,1,0,0,1,0,0,1,0,1,0,PHB,279
+8,Tsunami,Strength,Conjuration,1,1,0,0,0,1,0,0,0,0,0,1,PHB,284
+9,Imprisonment,Wisdom,Abjuration,1,1,1,0,0,0,0,0,0,1,1,0,PHB,252
+9,Mass Polymorph,Wisdom,Transmutation,1,1,1,1,0,0,0,0,1,0,1,1,XGE,160
+9,Meteor Swarm,Dexterity,Evocation,1,1,0,0,0,0,0,0,1,0,1,0,PHB,259
+9,Psychic Scream,Intelligence,Enchantment,0,1,0,1,0,0,0,0,1,1,1,0,XGE,163
+9,Prismatic Wall,Dexterity,Abjuration,1,1,0,0,0,0,0,0,0,0,1,0,PHB,267
+9,Storm of Vengeance,Dexterity,Conjuration,1,1,0,0,0,1,0,0,0,0,0,1,PHB,279
+9,True Polymorph,Wisdom,Transmutation,1,1,1,1,0,0,0,0,0,1,1,1,PHB,283
+9,Weird,Wisdom,Illusion,1,1,0,0,0,0,0,0,0,0,1,1,PHB,288

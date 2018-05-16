@@ -20,3 +20,7 @@ ENV/
 env.bak/
 venv.bak/
 
+files/sqliteTest.py
+quickstart.py
+
+

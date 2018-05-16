@@ -1,0 +1,57 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<title>Select Classes</title>
+{% endblock %}
+
+{% block header %}
+<nav class="navbar navbar-default">
+ <div class="container-fluid">
+   <div class="navbar-header">
+     <a class="navbar-brand" href="#">Spellbook Generator</a>
+   </div>
+   <ul class="nav navbar-nav">
+     <li><a href="/">Home</a></li>
+     <li class="dropdown">
+       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Example Spellbooks
+       <span class="caret"></span></a>
+       <ul class="dropdown-menu">
+         <li><a href="#">Wizard 1</a></li>
+         <li><a href="#">Sorcerer 5</a></li>
+         <li><a href="#">Bard 20</a></li>
+       </ul>
+     </li>
+     <li class="active"><a href="#">Generator</a></li>
+     <li><a href="#">Dice Roller</a></li>
+   </ul>
+ </div>
+</nav>
+{% endblock %}
+
+{% block content %}
+<h2>Multiclass coming Soon&trade;</h2>
+<form action="/processForm">
+  <input list="classes" name="classList">
+  <datalist id='classes'>
+    {% for class in dropList %}
+    <option value={{class}}>{{class}}</option>
+    {% endfor %}
+  </datalist>
+  <label for="lvl">Level</label>
+  <select name="lvl">
+    {% for num in lvls %}
+    <option value={{num}}>{{num}}</option>
+    {% endfor %}
+  </select>
+
+  <label for="mod">Spellcasting modifier</label>
+  <select name="mod">
+    {% for num in mods %}
+    <option value={{num}}>{{num}}</option>
+    {% endfor %}
+  </select>
+
+  <label class='checkbox-inline'><input type="checkbox" name='otherbooks' value="">Use other books?</label>
+  <input type="submit" value="Submit">
+</form>
+{% endblock %}

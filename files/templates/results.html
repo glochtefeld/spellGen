@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block header %}
+{% endblock %}
+
+{% block content %}
+
+<div class="container">
+  <h2>Cantrips</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>School</th>
+        <th>V</th>
+        <th>S</th>
+        <th>M</th>
+        <th>Concentration?</th>
+        <th>Source</th>
+        <th>Page #</th>
+      </tr>
+    </thead>
+    {% for row in cantraps %}
+    <tr>
+      {% for item in row %}
+      <td>{{item}}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+
+
+
+{% endblock %}
