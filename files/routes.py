@@ -12,8 +12,8 @@ def goToForm():
     'Ranger', 'Arcane Trickster', 'Sorcerer', 'Warlock', 'Wizard']
     lvlList = [str(i) for i in range(1,21)]
     modList = [str(i) for i in range(-5,6)]
-    return render_template('genForm.html', dropList = classList, lvls = lvlList,\
-    mods = modList)
+    return render_template('genForm.html', dropList = classList,\
+    lvls = lvlList, mods = modList)
 
 @app.route('/processForm')
 def processForm():
@@ -24,11 +24,16 @@ def processForm():
 
     newChar = Spellcaster(playerClass,playerLevel,playerMod,otherbooks)
 
-    return render_template('results.html', cantraps = newChar.getCantrips())
+    return render_template('results.html',cantraps = newChar.getCantrips(),\
+    spells = newChar.getSpells())
 
 @app.route('/diceRoller')
 def diceRoller():
     return render_template('diceRoller.html')
+
+@app.route('/diceCompute')
+def diceCompute():
+    pass
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)

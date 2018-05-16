@@ -1,15 +1,38 @@
 {% extends 'layout.html' %}
 
 {% block head %}
+<title>Results</title>
 {% endblock %}
 
 {% block header %}
+<nav class="navbar navbar-default">
+ <div class="container-fluid">
+   <div class="navbar-header">
+     <a class="navbar-brand" href="#">Spellbook Generator</a>
+   </div>
+   <ul class="nav navbar-nav">
+     <li class><a href="/">Home</a></li>
+     <li class="dropdown">
+       <a class="dropdown-toggle" data-toggle="dropdown" href="#">Example Spellbooks
+       <span class="caret"></span></a>
+       <ul class="dropdown-menu">
+         <li><a href="/processForm?classList=Wizard&lvl=1&mod=3&otherbooks=1">Wizard 1</a></li>
+         <li><a href="/processForm?classList=Sorcerer&lvl=5&mod=4&otherbooks=1">Sorcerer 5</a></li>
+         <li><a href="/processForm?classList=Bard&lvl=20&mod=5&otherbooks=1">Bard 20</a></li>
+       </ul>
+     </li>
+     <li><a href="/goToForm">Generator</a></li>
+     <li><a href="#">Dice Roller</a></li>
+   </ul>
+ </div>
+</nav>
 {% endblock %}
 
 {% block content %}
 
 <div class="container">
   <h2>Cantrips</h2>
+  <p>Cantrips can be cast an unlimited number of times per day.</p>
   <table class="table">
     <thead>
       <tr>
@@ -33,6 +56,31 @@
   </table>
 </div>
 
-
+<div class="container">
+  <h2>Prepared Spells</h2>
+  <p>Be sure to keep track of your spell slots!</p>
+  <table class='table'>
+    <thead>
+      <tr>
+        <th>Level</th>
+        <th>Name</th>
+        <th>School</th>
+        <th>V</th>
+        <th>S</th>
+        <th>M</th>
+        <th>Concentration?</th>
+        <th>Source</th>
+        <th>Page #</th>
+      </tr>
+    </thead>
+    {% for row in spells %}
+    <tr>
+      {% for item in row %}
+      <td>{{item}}</td>
+      {% endfor %}
+    </tr>
+    {% endfor %}
+  </table>
+</div>
 
 {% endblock %}

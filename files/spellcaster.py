@@ -1,10 +1,17 @@
 import math
 import records
 from random import choice, sample
+import operator
+
 
 class Spellcaster:
     def __init__(self, caster, level, modifier=0, otherbooks = None):
         self.caster = caster
+        self.level = level
+        self.modifier = modifier
+        self.otherbooks = otherbooks
+
+        # Third Caster class resetting
         if self.caster == 'Eldritch Knight':
             self.caster = 'eldKnight'
             self.thirdCaster = "Wizard"
@@ -12,20 +19,22 @@ class Spellcaster:
             self.caster = 'arcTrickster'
             self.thirdCaster = "Wizard"
 
-        self.level = level
-        self.modifier = modifier
-        self.otherbooks = otherbooks
-
+        # Class Separations
         self.fullCasters = set(['Bard','Cleric','Druid','Sorcerer','Warlock','Wizard'])
         self.halfCasters = set(['Paladin','Ranger'])
         self.thirdCasters = set(['eldKnight','arcTrickster'])
         self.prepared = set(['Cleric','Druid','Paladin','Wizard'])
 
+        # Number of spells / cantrips by level
         db = records.Database("sqlite:///static/databases/classSpells.db")
         sqlCommand = "select * from classSpells where level = "\
         + str(self.level)
         rows = db.query(sqlCommand)
         map = rows.as_dict()
+
+        # SPELL DATABASE
+        spellPath = "sqlite:///static/databases/spellDB.db"
+        self.spellDB = records.Database(spellPath)
 
         # Determine highest spell slot
         if self.caster in self.fullCasters: # Full casters
@@ -59,26 +68,6 @@ class Spellcaster:
             dbCol = self.caster + "Cantrips"
             self.cantrips = map[0][dbCol]
 
-        # Picking spells
-        spellPath = "sqlite:///static/databases/spellDB.db"
-        self.spellDB = records.Database(spellPath)
-        if self.otherbooks:
-            spellRequests = "select SpellLevel,Name,School,Verbal,Somatic\
-            ,Material,Concentration,Source,Page from spellDB where " +\
-            self.caster + " = 1 AND SpellLevel <= " + str(self.maxSpellLevel) +\
-            " AND SpellLevel > 0"
-        else:
-            spellRequests = "select SpellLevel,Name,School,Verbal,Somatic\
-            ,Material,Concentration,Source,Page from spellDB where " +\
-            self.caster + " = 1 AND SpellLevel <= " + str(self.maxSpellLevel) +\
-            " AND SpellLevel > 0 AND Source = 'PHB'"
-        self.spellRows = self.spellDB.query(spellRequests)
-        self.spellMap = self.spellRows.as_dict()
-        #print(spellMap)
-        #spell = list(choice(spellMap).values())
-        #print(spell)
-
-
     def getCantrips(self):
         # Returns a list of lists filled with cantrip info to be for tables
         if self.otherbooks:
@@ -111,22 +100,59 @@ class Spellcaster:
 
         return canList
 
+    def getSpells(self):
+        # Picking spells
+        if self.otherbooks:
+            spellRequests = "select SpellLevel,Name,School,Verbal,Somatic\
+            ,Material,Concentration,Source,Page from spellDB where " +\
+            self.caster + " = 1 AND SpellLevel <= " + str(self.maxSpellLevel) +\
+            " AND SpellLevel > 0"
+        else:
+            spellRequests = "select SpellLevel,Name,School,Verbal,Somatic\
+            ,Material,Concentration,Source,Page from spellDB where " +\
+            self.caster + " = 1 AND SpellLevel <= " + str(self.maxSpellLevel) +\
+            " AND SpellLevel > 0 AND Source = 'PHB'"
+        spellRows = self.spellDB.query(spellRequests)
+        spellMap = spellRows.as_dict()
+
+        try: # Database isn't complete; can request more spells than exist.
+            spellList = sample(spellMap, self.countSpells)
+        except ValueError as v:
+            print('Not enough spells in DB.')
+            spellList = list(spellMap)
+
+        for i in range(len(spellList)):
+            spellList[i] = list(spellList[i].values())
+
+            # Changes 0/1 into Y/N (easier than changing db)
+            for j in range(3,7):
+                if spellList[i][j] == 1:
+                    spellList[i][j] = 'Yes'
+                elif spellList[i][j] == 0:
+                    spellList[i][j] = 'No'
+
+        spellList = sorted(spellList, key=operator.itemgetter(0))
+
+        return spellList
+
     def getMaxSpellLvl(self):
         return self.maxSpellLevel
 
     def getPrepSpells(self):
         return self.countSpells
 
-    def __str__(self):
-        return self.caster + " " + str(self.level)
-
 
 def main():
-    myWiz = Spellcaster('Wizard',5,3, 'XGE')
+    myWiz = Spellcaster('Wizard',5,3, True)
     print(myWiz)
     print('Highest lvl: ',myWiz.getMaxSpellLvl())
-    print('# o Cantraps: ', myWiz.getCantrips())
+    print('Cantraps: ')
+    for i in myWiz.getCantrips():
+        print(i)
     print('Prepared Spells: ', myWiz.getPrepSpells())
+    print("Spells: ")
+    for i in myWiz.getSpells():
+        print(i)
 
 if __name__ == '__main__':
     main()
