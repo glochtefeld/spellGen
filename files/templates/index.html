@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block head %}
-<title>Home</title>
+<title>Spell Press</title>
 {% endblock %}
 
 {% block header %}
@@ -21,14 +21,32 @@
          <li><a href="/processForm?classList=Bard&lvl=20&mod=5&otherbooks=1">Bard 20</a></li>
        </ul>
      </li>
-     <li><a href="/goToForm">Generator</a></li>
-     <li><a href="#">Dice Roller</a></li>
+     <li><a href="/Form">Generator</a></li>
+     <li><a href="/diceRoller">Dice Roller</a></li>
    </ul>
  </div>
 </nav>
 {% endblock %}
 
 {% block content %}
-<p>Hello World</p>
-<p>Filler Text</p>
+<div class="container">
+  <div class="jumbotron">
+    <h1>Spell Press</h1>
+    <p>Quickly and easily generate randomly prepared spells for your Dungeons and Dragons Character
+    (5th Edition). If you need spells for a character as soon as possible and don't intend to play it for very long,
+  this is an excellent way to prompt creative solutions with whatever spells you are dealt.</p>
+  </div>
+  <h2>Example Spellbooks</h2>
+  <p>View a few spellbooks for characters at a variety of levels.</p>
+  <h2>Generator</h2>
+  <p>This is where spellbooks are generated. Simply put in your class, level, spellcasting modifier, and whether or not you wish
+  to include spells from multiple rule books.</p>
+  <h2>Dice Roller</h2>
+  <p>This is a separate project of mine, to simplify some of the more complicated rolls a player might need to make.
+    Ultimately, it is unrelated to this project, but still interesting.</p>
+
+  <br>
+  <p>Some content licensed under the <a href="/ogl">Open Gaming License</a>.</p>
+</div>
+
 {% endblock %}

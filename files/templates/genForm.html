@@ -22,37 +22,52 @@
        </ul>
      </li>
      <li class="active"><a href="#">Generator</a></li>
-     <li><a href="#">Dice Roller</a></li>
+     <li><a href="/diceRoller">Dice Roller</a></li>
    </ul>
  </div>
 </nav>
 {% endblock %}
 
 {% block content %}
-<h2>Multiclass coming Soon&trade;</h2>
-<form action="/processForm">
-  <input list="classes" name="classList">
-  <datalist id='classes'>
-    {% for class in dropList %}
-    <option value={{class}}>{{class}}</option>
-    {% endfor %}
-  </datalist>
-  <label for="lvl">Level</label>
-  <select name="lvl">
-    {% for num in lvls %}
-    <option value={{num}}>{{num}}</option>
-    {% endfor %}
-  </select>
+<div class="container-fluid">
+  <!--<h2>Multiclass coming Soon&trade;</h2>-->
+  <h2>Enter your character below</h2>
+  <div class="row">
+    <div class="col-sm-6">
+      <form action="/processForm">
+        <label for="classes">Class</label>
+        <input list="classes" name="classList">
+        <datalist id='classes'>
+          {% for class in dropList %}
+          <option value={{class}}>{{class}}</option>
+          {% endfor %}
+        </datalist>
+        <label for="lvl">Level</label>
+        <select name="lvl">
+          {% for num in lvls %}
+          <option value={{num}}>{{num}}</option>
+          {% endfor %}
+        </select> <br>
 
-  <label for="mod">Spellcasting modifier</label>
-  <select name="mod">
-    {% for num in mods %}
-    <option value={{num}}>{{num}}</option>
-    {% endfor %}
-  </select>
+        <label for="mod">Spellcasting modifier</label>
+        <select name="mod">
+          {% for num in mods %}
+          <option value={{num}}>{{num}}</option>
+          {% endfor %}
+        </select> <br>
 
-  <label>Use other books? <input type="checkbox" name='otherbooks' value="1"></label>
+        <label>Use other books? <input type="checkbox" name='otherbooks' value="1"></label> <br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="col-sm-6">
+      <img src="{{url_for ('static', filename='img/d20.png')}}" alt="Roll your ability score with this"
+      style="width:50%;height:auto;"/>
+    </div>
 
-  <input type="submit" value="Submit">
-</form>
+  </div>
+
+
+</div>
+
 {% endblock %}
