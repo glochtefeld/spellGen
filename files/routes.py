@@ -32,7 +32,8 @@ def processForm():
 
 @app.route('/diceRoller')
 def diceRoller():
-    return render_template('diceRoller.html')
+    edgeList = ["A THOUSAND YEARS OF DARKNESS", 'KNIVES', 'DEATH', 'VAGUE HORROR ETC', 'POWER WORD: KILL']
+    return render_template('diceRoller.html', evanList = choice(edgeList))
 
 @app.route('/diceCompute')
 def diceCompute():
@@ -42,10 +43,29 @@ def diceCompute():
     newRoll = Dice(dieSize, numDies)
     quotes=['Impossible!','Rigged.','Natural [INSERT ROLL HERE]!','Gnarly.',\
     'Tubular.','Lorem Ipsum!','.']
+    edgeList = ["A THOUSAND YEARS OF DARKNESS", 'KNIVES', 'DEATH', 'VAGUE HORROR ETC', 'POWER WORD: KILL']
 
     return render_template('diceRoller.html', roll = newRoll.roll(),\
-    rolled=True, quote=choice(quotes))
+    rolled=True, quote=choice(quotes), evanList = choice(edgeList))
 
+@app.route('/evanRoll')
+def evanRoll():
+    roll1 = Dice(6,5)
+    roll2 = Dice(10,12)
+    roll3 = Dice(12,5)
+
+    r1 = roll1.roll()
+    r2 = roll2.roll()
+    r3 = roll3.roll()
+
+    quotes=['Impossible!','Rigged.','Natural [INSERT ROLL HERE]!','Gnarly.',\
+    'Tubular.','Lorem Ipsum!','.']
+    edgeList = ["A THOUSAND YEARS OF DARKNESS", 'KNIVES', 'DEATH', 'VAGUE HORROR ETC', 'POWER WORD: KILL']
+    returnString = str(r1) + " + " + str(r2) + " + " + str(r3)
+    evanPhrase = choice(edgeList)
+
+    return render_template('diceRoller.html', evanList = evanPhrase, roll = r1+r2+r3,\
+    rolled=True, quote=choice(quotes), retStr = returnString)
 
 @app.route('/ogl')
 def ogl():

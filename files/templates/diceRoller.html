@@ -1,7 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block head %}
-<title>Midnight Katana-Rain</title>
+<title>Midnight Katanarain</title>
 {% endblock %}
 
 {% block header %}
@@ -47,9 +47,15 @@
     <input type="number" name="numDies" value="1"><br>
     <input type="submit" value="Roll!">
   </form>
+
+  <h4>5d6 + 12d10 + 5d12</h4>
+  <form action="/evanRoll">
+    <input type="submit" value= "{{ evanList }}">
+  </form>
 </div>
 {% if rolled %}
 <div class="container-fluid">
+  <p>{{retStr}}</p>
   <h2>You rolled: {{roll}}</h2>
   <p>{{quote}}</p>
 </div>
