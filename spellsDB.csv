@@ -1,0 +1,295 @@
+0,Acid Splash,Conjuration,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,211
+2,Aid,Abjuration,1,1,1,0,0,1,0,1,0,0,0,0,0,PHB,211
+1,Alarm,Abjuration,1,1,1,1,0,0,0,0,1,0,0,1,0,PHB,211
+2,Alter Self,Transmutation,1,1,0,0,0,0,0,0,0,1,0,1,1,PHB,211
+1,Animal Friendship,Enchantment,1,1,1,0,1,0,1,0,1,0,0,0,0,PHB,212
+2,Animal Messenger,Enchantment,1,1,1,1,1,0,1,0,1,0,0,0,0,PHB,212
+8,Animal Shapes,Transmutation,1,1,0,0,0,0,1,0,0,0,0,0,1,PHB,212
+3,Animate Dead,Necromancy,1,1,1,0,0,1,0,0,0,0,0,1,0,PHB,212
+5,Animate Objects,Transmutation,1,1,0,0,1,0,0,0,0,1,0,1,1,PHB,213
+5,Antilife Shell,Abjuration,1,1,0,0,0,0,1,0,0,0,0,0,1,PHB,213
+8,Antimagic Field,Abjuration,1,1,1,0,0,1,0,0,0,0,0,1,1,PHB,213
+8,Antipathy/Sympathy,Enchantment,1,1,1,0,0,0,1,0,0,0,0,1,0,PHB,214
+4,Arcane Eye,Divination,1,1,1,0,0,0,0,0,0,0,0,1,1,PHB,214
+6,Arcane Gate,Conjuration,1,1,0,0,0,0,0,0,0,1,1,1,1,PHB,214
+2,Arcane Lock,Abjuration,1,1,3,0,0,0,0,0,0,0,0,1,0,PHB,215
+1,Armor of Agathys,Abjuration,1,1,1,0,0,0,0,0,0,0,1,0,0,PHB,215
+1,Arms of Hadar,Conjuration,1,1,0,0,0,0,0,0,0,0,1,0,0,PHB,215
+9,Astral Projection,Necromancy,1,1,3,0,0,1,0,0,0,0,1,1,0,PHB,215
+2,Augury,Divination,1,1,2,1,0,1,0,0,0,0,0,0,0,PHB,215
+4,Aura of Life,Abjuration,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,216
+4,Aura of Purity,Abjuration,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,216
+3,Aura of Vitality,Evocation,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,216
+5,Awaken,Transmutation,1,1,3,0,1,0,1,0,0,0,0,0,0,PHB,216
+1,Bane,Enchantment,1,1,1,0,1,1,0,0,0,0,0,0,1,PHB,216
+5,Banishing Smite,Abjuration,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,216
+4,Banishment,Abjuration,1,1,1,0,0,1,0,1,0,1,1,1,1,PHB,217
+2,Barkskin,Transmutation,1,1,1,0,0,0,1,0,1,0,0,0,1,PHB,217
+3,Beacon of Hope,Abjuration,1,1,0,0,0,1,0,0,0,0,0,0,1,PHB,217
+2,Beast Sense,Divination,0,1,0,1,0,0,1,0,1,0,0,0,1,PHB,217
+3,Bestow Curse,Necromancy,1,1,0,0,1,1,0,0,0,0,0,1,1,PHB,218
+5,Bigby's Hand,Evocation,1,1,1,0,0,0,0,0,0,0,0,1,1,PHB,218
+6,Blade Barrier,Evocation,1,1,0,0,0,1,0,0,0,0,0,0,1,PHB,218
+0,Blade Ward,Abjuration,1,1,0,0,1,0,0,0,0,1,1,1,0,PHB,218
+1,Bless,Enchantment,1,1,1,0,0,1,0,1,0,0,0,0,1,PHB,219
+4,Blight,Necromancy,1,1,0,0,0,0,1,0,0,1,1,1,0,PHB,219
+3,Blinding Smite,Evocation,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,219
+2,Blindness/Deafness,Necromancy,1,0,0,0,1,1,0,0,0,1,0,1,0,PHB,219
+3,Blink,Transmutation,1,1,0,0,0,0,0,0,0,1,0,0,0,PHB,219
+2,Blur,Illusion,1,0,0,0,0,0,0,0,0,1,0,1,1,PHB,219
+2,Branding Smite,Evocation,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,219
+1,Burning Hands,Evocation,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,220
+3,Call Lightning,Conjuration,1,1,0,0,0,0,1,0,0,0,0,0,1,PHB,220
+2,Calm Emotions,Enchantment,1,1,0,0,1,1,0,0,0,0,0,0,1,PHB,221
+6,Chain Lightning,Evocation,1,1,1,0,0,0,0,0,0,1,0,1,0,PHB,221
+1,Charm Person,Enchantment,1,1,0,0,1,0,1,0,0,1,1,1,0,PHB,221
+0,Chill Touch,Necromancy,1,1,0,0,0,0,0,0,0,1,1,1,0,PHB,221
+1,Chromatic Orb,Evocation,1,1,2,0,0,0,0,0,0,1,0,1,0,PHB,221
+6,Circle of Death,Necromancy,1,1,2,0,0,0,0,0,0,1,1,1,0,PHB,221
+5,Circle of Power,Abjuration,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,221
+3,Clairvoyance,Divination,1,1,2,0,1,1,0,0,0,1,0,1,1,PHB,222
+8,Clone,Necromancy,1,1,3,0,0,0,0,0,0,0,0,1,0,PHB,222
+2,Cloud of Daggers,Conjuration,1,1,1,0,1,0,0,0,0,1,1,1,1,PHB,222
+5,Cloudkill,Conjuration,1,1,0,0,0,0,0,0,0,1,0,1,1,PHB,222
+1,Color Spray,Illusion,1,1,1,0,0,0,0,0,0,1,0,1,0,PHB,222
+1,Command,Enchantment,1,0,0,0,0,1,0,1,0,0,0,0,0,PHB,223
+5,Commune,Divination,1,1,1,1,0,1,0,0,0,0,0,0,0,PHB,223
+5,Commune with Nature,Divination,1,1,0,1,0,0,1,0,1,0,0,0,0,PHB,224
+1,Compelled Duel,Enchantment,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,224
+1,Comprehend Languages,Divination,1,1,1,1,1,0,0,0,0,1,1,1,0,PHB,224
+4,Compulsion,Enchantment,1,1,0,0,1,0,0,0,0,0,0,0,1,PHB,224
+5,Cone of Cold,Evocation,1,1,1,0,0,0,0,0,0,1,0,1,0,PHB,224
+4,Confusion,Enchantment,1,1,1,0,1,0,1,0,0,1,0,1,1,PHB,224
+3,Conjure Animals,Conjuration,1,1,0,0,0,0,1,0,1,0,0,0,1,PHB,225
+3,Conjure Barrage,Conjuration,1,1,1,0,0,0,0,0,1,0,0,0,0,PHB,225
+7,Conjure Celestial,Conjuration,1,1,0,0,0,1,0,0,0,0,0,0,1,PHB,225
+5,Conjure Elemental,Conjuration,1,1,1,0,0,0,1,0,0,0,0,1,1,PHB,225
+6,Conjure Fey,Conjuration,1,1,0,0,0,0,1,0,0,0,1,0,1,PHB,226
+4,Conjure Minor Elementals,Conjuration,1,1,0,0,0,0,1,0,0,0,0,1,1,PHB,226
+5,Conjure Volley,Conjuration,1,1,1,0,0,0,0,0,1,0,0,0,0,PHB,226
+4,Conjure Woodland Beings,Conjuration,1,1,1,0,0,0,1,0,1,0,0,0,1,PHB,226
+5,Contact Other Plane,Divination,1,0,0,1,0,0,0,0,0,0,1,1,0,PHB,226
+5,Contagion,Necromancy,1,1,0,0,0,1,1,0,0,0,0,0,0,PHB,227
+6,Contingency,Evocation,1,1,2,0,0,0,0,0,0,0,0,1,0,PHB,227
+2,Continual Flame,Evocation,1,1,3,0,0,1,0,0,0,0,0,1,0,PHB,227
+4,Control Water,Transmutation,1,1,1,0,0,1,1,0,0,0,0,1,1,PHB,227
+8,Control Weather,Transmutation,1,1,1,0,0,1,1,0,0,0,0,1,1,PHB,228
+2,Cordon of Arrows,Transmutation,1,1,1,0,0,0,0,0,1,0,0,0,0,PHB,228
+3,Counterspell,Abjuration,0,1,0,0,0,0,0,0,0,1,1,1,0,PHB,228
+3,Create Food and Water,Conjuration,1,1,0,0,0,1,0,1,0,0,0,0,0,PHB,229
+1,Create or Destroy Water,Transmutation,1,1,1,0,0,1,1,0,0,0,0,0,0,PHB,229
+6,Create Undead,Necromancy,1,1,2,0,0,1,0,0,0,0,1,1,0,PHB,229
+5,Creation,Illusion,1,1,1,0,0,0,0,0,0,1,0,1,0,PHB,229
+2,Crown of Madness,Enchantment,1,1,0,0,1,0,0,0,0,1,1,1,0,PHB,229
+3,Crusader's Mantle,Evocation,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,230
+1,Cure Wounds,Evocation,1,1,0,0,1,1,1,1,1,0,0,0,0,PHB,230
+0,Dancing Lights,Evocation,1,1,1,0,1,0,0,0,0,1,0,1,1,PHB,230
+2,Darkness,Evocation,1,0,1,0,0,0,0,0,0,1,1,1,1,PHB,230
+2,Darkvision,Transmutation,1,1,1,0,0,0,1,0,1,1,0,1,0,PHB,230
+3,Daylight,Evocation,1,1,0,0,0,1,1,1,1,1,0,0,0,PHB,230
+4,Death Ward,Abjuration,1,1,0,0,0,1,0,1,0,0,0,0,0,PHB,230
+7,Delayed Blast Fireball,Evocation,1,1,1,0,0,0,0,0,0,1,0,1,1,PHB,230
+8,Demiplane,Conjuration,0,1,0,0,0,0,0,0,0,0,1,1,0,PHB,231
+5,Destructive Wave,Evocation,1,0,0,0,0,0,0,1,0,0,0,0,0,PHB,231
+1,Detect Evil and Good,Divination,1,1,0,0,0,1,0,1,0,0,0,0,1,PHB,231
+1,Detect Magic,Divination,1,1,0,1,1,1,1,1,1,1,0,1,1,PHB,231
+1,Detect Poison and Disease,Divination,1,1,1,1,0,1,1,1,1,0,0,0,1,PHB,231
+2,Detect Thoughts,Divination,1,1,1,0,1,0,0,0,0,1,0,1,1,PHB,231
+4,Dimension Door,Conjuration,1,0,0,0,1,0,0,0,0,1,1,1,0,PHB,233
+1,Disguise Self,Illusion,1,1,0,0,1,0,0,0,0,1,0,1,0,PHB,233
+6,Disintegrate,Transmutation,1,1,1,0,0,0,0,0,0,1,0,1,0,PHB,233
+5,Dispel Evil and Good,Abjuration,1,1,1,0,0,1,0,1,0,0,0,0,1,PHB,233
+3,Dispel Magic,Abjuration,1,1,0,0,1,1,1,1,0,1,1,1,0,PHB,234
+1,Dissonant Whispers,Enchantment,1,0,0,0,1,0,0,0,0,0,0,0,0,PHB,234
+4,Divination,Divination,1,1,3,1,0,1,0,0,0,0,0,0,0,PHB,234
+1,Divine Favor,Evocation,1,1,0,0,0,0,0,1,0,0,0,0,1,PHB,234
+7,Divine Word,Evocation,1,0,0,0,0,1,0,0,0,0,0,0,0,PHB,234
+4,Dominate Beast,Enchantment,1,1,0,0,0,0,1,0,0,1,0,0,1,PHB,234
+8,Dominate Monster,Enchantment,1,1,0,0,1,0,0,0,0,1,1,1,1,PHB,235
+5,Dominate Person,Enchantment,1,1,0,0,1,0,0,0,0,1,0,1,1,PHB,235
+6,Drawmij's Instant Summons,Conjuration,1,1,2,1,0,0,0,0,0,0,0,1,0,PHB,235
+5,Dream,Illusion,1,1,1,0,1,0,0,0,0,0,1,1,0,PHB,236
+0,Druidcraft,Transmutation,1,1,0,0,0,0,1,0,0,0,0,0,0,PHB,236
+8,Earthquake,Evocation,1,1,1,0,0,1,1,0,0,1,0,0,1,PHB,236
+0,Eldritch Blast,Evocation,1,1,0,0,0,0,0,0,0,0,1,0,0,PHB,237
+3,Elemental Weapon,Transmutation,1,1,0,0,0,0,0,1,0,0,0,0,1,PHB,237
+2,Enhance Ability,Transmutation,1,1,1,0,1,1,1,0,0,1,0,0,1,PHB,237
+2,Enlarge/Reduce,Transmutation,1,1,1,0,0,0,0,0,0,1,0,1,1,PHB,237
+1,Ensnaring Strike,Conjuration,1,0,0,0,0,0,0,0,1,0,0,0,1,PHB,237
+1,Entangle,Conjuration,1,1,0,0,0,0,1,0,0,0,0,0,1,PHB,238
+2,Enthrall,Enchantment,1,1,0,0,1,0,0,0,0,0,1,0,0,PHB,238
+7,Etherealness,Transmutation,1,1,0,0,1,1,0,0,0,1,1,1,0,PHB,238
+4,Evard's Black Tentacles,Conjuration,1,1,1,0,0,0,0,0,0,0,0,1,1,PHB,238
+1,Expeditious Retreat,Transmutation,1,1,0,0,0,0,0,0,0,1,1,1,1,PHB,238
+6,Eyebite,Necromancy,1,1,0,0,1,0,0,0,0,1,1,1,1,PHB,238
+4,Fabricate,Transmutation,1,1,0,0,0,0,0,0,0,0,0,1,0,PHB,239
+1,Faerie Fire,Evocation,1,0,0,0,1,0,1,0,0,0,0,0,1,PHB,239
+1,False Life,Necromancy,1,1,1,0,0,0,0,0,0,1,0,1,0,PHB,239
+3,Fear,Illusion,1,1,1,0,1,0,0,0,0,1,1,1,1,PHB,239
+1,Feather Fall,Transmutation,1,0,1,0,1,0,0,0,0,1,0,1,0,PHB,239
+8,Feeblemind,Enchantment,1,1,1,0,1,0,1,0,0,0,1,1,0,PHB,239
+3,Feign Death,Necromancy,1,1,1,1,1,1,1,0,0,0,0,1,0,PHB,240
+1,Find Familiar,Conjuration,1,1,3,1,0,0,0,0,0,0,0,1,0,PHB,240
+2,Find Steed,Conjuration,1,1,0,0,0,0,0,1,0,0,0,0,0,PHB,240
+6,Find the Path,Divination,1,1,2,0,1,1,1,0,0,0,0,0,1,PHB,240
+2,Find Traps,Divination,1,1,0,0,0,1,1,0,1,0,0,0,0,PHB,241
+7,Finger of Death,Necromancy,1,1,0,0,0,0,0,0,0,1,1,1,0,PHB,241
+3,Fireball,Evocation,1,1,1,0,0,0,0,0,0,1,0,1,0,PHB,241
+0,Fire Bolt,Evocation,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,242
+4,Fire Shield,Evocation,1,1,1,0,0,0,0,0,0,0,0,1,0,PHB,242
+7,Fire Storm,Evocation,1,1,0,0,0,1,1,0,0,1,0,0,0,PHB,242
+2,Flame Blade,Evocation,1,1,1,0,0,0,1,0,0,0,0,0,1,PHB,242
+5,Flame Strike,Evocation,1,1,1,0,0,1,0,0,0,0,0,0,0,PHB,242
+2,Flaming Sphere,Conjuration,1,1,1,0,0,0,1,0,0,0,0,1,1,PHB,242
+6,Flesh to Stone,Transmutation,1,1,1,0,0,0,0,0,0,0,1,1,1,PHB,243
+3,Fly,Transmutation,1,1,1,0,0,0,0,0,0,1,1,1,1,PHB,243
+1,Fog Cloud,Conjuration,1,1,0,0,0,0,1,0,1,1,0,1,1,PHB,243
+6,Forbiddance,Abjuration,1,1,2,1,0,1,0,0,0,0,0,0,0,PHB,243
+7,Forcecage,Evocation,1,1,2,0,1,0,0,0,0,0,1,1,0,PHB,243
+9,Foresight,Divination,1,1,1,0,1,0,1,0,0,0,1,0,0,PHB,244
+4,Freedom of Movement,Abjuration,1,1,1,0,1,1,1,0,1,0,0,0,0,PHB,244
+0,Friends,Enchantment,0,1,1,0,1,0,0,0,0,1,1,1,1,PHB,244
+3,Gaseous Form,Transmutation,1,1,1,0,0,0,0,0,0,1,1,1,1,PHB,244
+9,Gate,Conjuration,1,1,2,0,0,1,0,0,0,1,0,1,1,PHB,244
+5,Geas,Enchantment,1,0,0,0,1,1,1,1,0,0,0,1,0,PHB,244
+2,Gentle Repose,Necromancy,1,1,1,1,0,1,0,0,0,0,0,1,0,PHB,245
+4,Giant Insect,Transmutation,1,1,0,0,0,0,1,0,0,0,0,0,1,PHB,245
+8,Glibness,Transmutation,1,0,0,0,1,0,0,0,0,0,1,0,0,PHB,245
+6,Globe of Invulnerability,Abjuration,1,1,1,0,0,0,0,0,0,1,0,0,1,PHB,245
+3,Glyph of Warding,Abjuration,1,1,3,0,1,1,0,0,0,0,0,1,0,PHB,245
+1,Goodberry,Transmutation,1,1,1,0,0,0,1,0,1,0,0,0,0,PHB,246
+4,Grasping Vine,Transmutation,1,1,0,0,0,0,1,0,1,0,0,0,1,PHB,246
+1,Grease,Conjuration,1,1,1,0,0,0,0,0,0,0,0,1,0,PHB,246
+4,Greater Invisibility,Illusion,1,1,0,0,1,0,0,0,0,0,0,1,1,PHB,246
+5,Greater Restoration,Abjuration,1,1,3,0,1,1,1,0,0,0,0,0,0,PHB,246
+4,Guardian of Faith,Conjuration,1,0,0,0,0,1,0,0,0,0,0,0,0,PHB,246
+6,Guards and Wards,Abjuration,1,1,2,0,1,0,0,0,0,0,0,1,0,PHB,248
+0,Guidance,Divination,1,1,0,0,0,1,1,0,0,0,0,0,1,PHB,248
+1,Guiding Bolt,Evocation,1,1,0,0,0,1,0,0,0,0,0,0,0,PHB,248
+2,Gust of Wind,Evocation,1,1,1,0,0,0,1,0,0,1,0,1,1,PHB,248
+1,Hail of Thorns,Conjuration,1,0,0,0,0,0,0,0,1,0,0,0,1,PHB,249
+5,Hallow,Evocation,1,1,3,0,0,1,0,0,0,0,0,0,0,PHB,249
+4,Hallucinatory Terrain,Illusion,1,1,1,0,1,0,1,0,0,0,1,1,0,PHB,249
+6,Harm,Necromancy,1,1,0,0,0,1,0,0,0,0,0,0,0,PHB,249
+3,Haste,Transmutation,1,1,1,0,0,0,0,0,0,1,0,1,1,PHB,250
+6,Heal,Evocation,1,1,0,0,0,1,1,0,0,0,0,0,0,PHB,250
+1,Healing Word,Evocation,1,0,0,0,1,1,1,0,0,0,0,0,0,PHB,250
+2,Heat Metal,Transmutation,1,1,1,0,1,0,1,0,0,0,0,0,1,PHB,250
+1,Hellish Rebuke,Evocation,1,1,0,0,0,0,0,0,0,0,1,0,0,PHB,250
+6,Heroes' Feast,Conjuration,1,1,3,0,0,1,1,0,0,0,0,0,0,PHB,250
+1,Heroism,Enchantment,1,1,0,0,1,0,0,1,0,0,0,0,1,PHB,250
+1,Hex,Enchantment,1,1,1,0,0,0,0,0,0,0,1,0,1,PHB,251
+5,Hold Monster,Enchantment,1,1,1,0,1,0,0,0,0,1,1,1,1,PHB,251
+2,Hold Person,Enchantment,1,1,1,0,1,1,1,0,0,1,1,1,1,PHB,251
+8,Holy Aura,Abjuration,1,1,2,0,0,1,0,0,0,0,0,0,1,PHB,251
+3,Hunger of Hadar,Conjuration,1,1,1,0,0,0,0,0,0,0,1,0,1,PHB,251
+1,Hunter's Mark,Divination,1,0,0,0,0,0,0,0,1,0,0,0,1,PHB,251
+3,Hypnotic Pattern,Illusion,0,1,1,0,1,0,0,0,0,1,1,1,1,PHB,252
+4,Ice Storm,Evocation,1,1,1,0,0,0,1,0,0,1,0,1,0,PHB,252
+1,Identify,Divination,1,1,2,1,1,0,0,0,0,0,0,1,0,PHB,252
+1,Illusory Script,Illusion,0,1,3,1,1,0,0,0,0,0,1,1,0,PHB,252
+9,Imprisonment,Abjuration,1,1,2,0,0,0,0,0,0,0,1,1,0,PHB,252
+8,Incendiary Cloud,Conjuration,1,1,0,0,0,0,0,0,0,1,0,1,1,PHB,253
+1,Inflict Wounds,Necromancy,1,1,0,0,0,1,0,0,0,0,0,0,0,PHB,253
+5,Insect Plague,Conjuration,1,1,1,0,0,1,1,0,0,1,0,0,1,PHB,254
+2,Invisibility,Illusion,1,1,1,0,1,0,0,0,0,1,1,1,1,PHB,254
+1,Jump,Transmutation,1,1,1,0,0,0,1,0,1,1,0,1,0,PHB,254
+2,Knock,Transmutation,1,0,0,0,1,0,0,0,0,1,0,1,0,PHB,254
+5,Legend Lore,Divination,1,1,3,0,1,1,0,0,0,0,0,1,0,PHB,254
+4,Leomund's Secret Chest,Conjuration,1,1,2,0,0,0,0,0,0,0,0,1,0,PHB,254
+3,Leomund's Tiny Hut,Evocation,1,1,1,1,1,0,0,0,0,0,0,1,0,PHB,255
+2,Lesser Restoration,Abjuration,1,1,0,0,0,1,1,1,1,0,0,0,0,PHB,255
+2,Levitate,Transmutation,1,1,1,0,0,0,0,0,0,1,0,1,1,PHB,255
+0,Light,Evocation,1,0,1,0,1,1,0,0,0,1,0,1,0,PHB,255
+3,Lightning Arrow,Transmutation,1,1,0,0,0,0,0,0,1,0,0,0,1,PHB,255
+3,Lightning Bolt,Evocation,1,1,1,0,0,0,0,0,0,1,0,1,0,PHB,255
+2,Locate Animals or Plants,Divination,1,1,1,1,0,0,1,0,1,0,0,0,0,PHB,256
+4,Locate Creature,Divination,1,1,1,0,1,1,1,1,1,0,0,1,1,PHB,256
+2,Locate Object,Divination,1,1,1,0,1,1,0,1,1,0,0,1,1,PHB,256
+1,Longstrider,Transmutation,1,1,1,0,1,0,1,0,1,0,0,1,0,PHB,256
+1,Mage Armor,Abjuration,1,1,1,0,0,0,0,0,0,1,0,1,0,PHB,256
+0,Mage Hand,Conjuration,1,1,0,0,1,0,0,0,0,1,1,1,0,PHB,256
+3,Magic Circle,Abjuration,1,1,3,0,0,1,0,1,0,0,1,0,0,PHB,256
+6,Magic Jar,Necromancy,1,1,2,0,0,0,0,0,0,0,0,1,0,PHB,257
+1,Magic Missile,Evocation,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,257
+2,Magic Mouth,Illusion,1,1,3,1,1,0,0,0,0,0,0,1,0,PHB,257
+2,Magic Weapon,Transmutation,1,1,0,0,0,0,0,1,0,0,0,1,1,PHB,257
+3,Major Image,Illusion,1,1,1,0,1,0,0,0,0,1,1,1,1,PHB,258
+5,Mass Cure Wounds,Evocation,1,1,0,0,1,1,1,0,0,0,0,0,0,PHB,258
+9,Mass Heal,Evocation,1,1,0,0,0,1,0,0,0,0,0,0,0,PHB,258
+3,Mass Healing Word,Evocation,1,0,0,0,0,1,0,0,0,0,0,0,0,PHB,258
+6,Mass Suggestion,Enchantment,1,0,1,0,1,0,0,0,0,1,1,1,0,PHB,258
+8,Maze,Conjuration,1,1,0,0,0,0,0,0,0,0,0,1,1,PHB,258
+3,Meld into Stone,Transmutation,1,1,0,1,0,1,1,0,0,0,0,0,0,PHB,259
+2,Melf's Acid Arrow,Evocation,1,1,1,0,0,0,0,0,0,0,0,1,0,PHB,259
+0,Mending,Transmutation,1,1,1,0,1,1,1,0,0,1,0,1,0,PHB,259
+0,Message,Transmutation,1,1,1,0,1,0,0,0,0,1,0,1,0,PHB,259
+9,Meteor Swarm,Evocation,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,259
+8,Mind Blank,Abjuration,1,1,0,0,1,0,0,0,0,0,0,1,0,PHB,259
+0,Minor Illusion,Illusion,0,1,1,0,1,0,0,0,0,1,1,1,0,PHB,260
+7,Mirage Arcane,Illusion,1,1,0,0,1,0,1,0,0,0,0,1,0,PHB,260
+2,Mirror Image,Illusion,1,1,0,0,0,0,0,0,0,1,1,1,0,PHB,260
+5,Mislead,Illusion,0,1,0,0,1,0,0,0,0,0,0,1,1,PHB,260
+2,Misty Step,Conjuration,1,0,0,0,0,0,0,0,0,1,1,1,0,PHB,260
+5,Modify Memory,Enchantment,1,1,0,0,1,0,0,0,0,0,0,1,1,PHB,261
+2,Moonbeam,Evocation,1,1,1,0,0,0,1,0,0,0,0,0,1,PHB,261
+4,Mordenkainen's Faithful Hound,Conjuration,1,1,1,0,0,0,0,0,0,0,0,1,0,PHB,261
+7,Mordenkainen's Magnificent Mansion,Conjuration,1,1,2,0,1,0,0,0,0,0,0,1,0,PHB,261
+4,Mordenkainen's Private Sanctum,Abjuration,1,1,1,0,0,0,0,0,0,0,0,1,0,PHB,262
+7,Mordenkainen's Sword,Evocation,1,1,2,0,1,0,0,0,0,0,0,1,1,PHB,262
+6,Move Earth,Transmutation,1,1,1,0,0,0,1,0,0,1,0,1,1,PHB,263
+3,Nondetection,Abjuration,1,1,3,0,1,0,0,0,1,0,0,1,0,PHB,263
+2,Nystul's Magic Aura,Illusion,1,1,1,0,0,0,0,0,0,0,0,1,0,PHB,263
+6,Otiluke's Freezing Sphere,Evocation,1,1,1,0,0,0,0,0,0,0,0,1,0,PHB,263
+4,Otiluke's Resilient Sphere,Evocation,1,1,1,0,0,0,0,0,0,0,0,1,1,PHB,264
+6,Otto's Irresistible Dance,Enchantment,1,0,0,0,1,0,0,0,0,0,0,1,1,PHB,264
+2,Pass without Trace,Abjuration,1,1,1,0,0,0,1,0,1,0,0,0,1,PHB,264
+5,Passwall,Transmutation,1,1,1,0,0,0,0,0,0,0,0,1,0,PHB,264
+2,Phantasmal Force,Illusion,1,1,1,0,1,0,0,0,0,1,0,1,1,PHB,264
+4,Phantasmal Killer,Illusion,1,1,0,0,0,0,0,0,0,0,0,1,1,PHB,265
+3,Phantom Steed,Illusion,1,1,0,1,0,0,0,0,0,0,0,1,0,PHB,265
+6,Planar Ally,Conjuration,1,1,0,0,0,1,0,0,0,0,0,0,0,PHB,265
+5,Planar Binding,Abjuration,1,1,3,0,1,1,1,0,0,0,0,1,0,PHB,265
+7,Plane Shift,Conjuration,1,1,2,0,0,1,1,0,0,1,1,1,0,PHB,266
+3,Plant Growth,Transmutation,1,1,0,0,1,0,1,0,1,0,0,0,0,PHB,266
+0,Poison Spray,Conjuration,1,1,0,0,0,0,1,0,0,1,1,1,0,PHB,266
+4,Polymorph,Transmutation,1,1,1,0,1,0,1,0,0,1,0,1,1,PHB,266
+9,Power Word Heal,Evocation,1,1,0,0,1,0,0,0,0,0,0,0,0,PHB,266
+9,Power Word Kill,Enchantment,1,0,0,0,0,0,0,0,0,1,1,1,0,PHB,266
+8,Power Word Stun,Enchantment,1,0,0,0,1,0,0,0,0,1,1,1,0,PHB,267
+2,Prayer of Healing,Evocation,1,0,0,0,0,1,0,0,0,0,0,0,0,PHB,267
+0,Prestidigitation,Transmutation,1,1,0,0,1,0,0,0,0,1,1,1,0,PHB,267
+7,Prismatic Spray,Evocation,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,267
+9,Prismatic Wall,Abjuration,1,1,0,0,0,0,0,0,0,0,0,1,0,PHB,267
+0,Produce Flame,Conjuration,1,1,0,0,0,0,1,0,0,0,0,0,0,PHB,269
+6,Programmed Illusion,Illusion,1,1,2,0,1,0,0,0,0,0,0,1,0,PHB,269
+7,Project Image,Illusion,1,1,2,0,1,0,0,0,0,0,0,1,1,PHB,270
+3,Protection from Energy,Abjuration,1,1,0,0,0,1,1,0,1,1,0,1,1,PHB,270
+1,Protection from Evil and Good,Abjuration,1,1,4,0,0,1,0,1,0,0,1,1,1,PHB,270
+2,Protection from Poison,Abjuration,1,1,0,0,0,1,1,1,1,0,0,0,0,PHB,270
+1,Purify Food and Drink,Transmutation,1,1,0,1,0,1,1,1,0,0,0,0,0,PHB,270
+5,Raise Dead,Necromancy,1,1,3,0,1,1,0,1,0,0,0,0,0,PHB,270
+5,Rary's Telepathic Bond,Divination,1,1,1,1,0,0,0,0,0,0,0,1,0,PHB,270
+2,Ray of Enfeeblement,Necromancy,1,1,0,0,0,0,0,0,0,0,1,1,1,PHB,271
+0,Ray of Frost,Evocation,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,271
+1,Ray of Sickness,Necromancy,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,271
+7,Regenerate,Transmutation,1,1,1,0,1,1,1,0,0,0,0,0,0,PHB,271
+5,Reincarnate,Transmutation,0,0,3,0,0,0,1,0,0,0,0,0,0,PHB,271
+3,Remove Curse,Abjuration,1,1,0,0,0,1,0,1,0,0,1,1,0,PHB,271
+2,Ray of Enfeeblement,Necromancy,1,1,0,0,0,0,0,0,0,0,1,1,1,PHB,271
+0,Ray of Frost,Evocation,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,271
+1,Ray of Sickness,Necromancy,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,271
+7,Regenerate,Transmutation,1,1,1,0,1,1,1,0,0,0,0,0,0,PHB,271
+5,Reincarnate,Transmutation,1,1,3,0,0,0,1,0,0,0,0,0,0,PHB,271
+3,Remove Curse,Abjuration,1,1,0,0,0,1,0,1,0,0,1,1,0,PHB,271
+0,Resistance,Abjuration,1,1,1,0,0,1,1,0,0,0,0,0,1,PHB,272
+7,Resurrection,Necromancy,1,1,3,0,1,1,0,0,0,0,0,0,0,PHB,272
+7,Reverse Gravity,Transmutation,1,1,1,0,0,0,1,0,0,1,0,1,1,PHB,272
+3,Revivify,Necromancy,1,1,3,0,0,1,0,1,0,0,0,0,0,PHB,272
+2,Rope Trick,Transmutation,1,1,1,0,0,0,0,0,0,0,0,1,0,PHB,272
+0,Sacred Flame,Evocation,1,1,0,0,0,1,0,0,0,0,0,0,0,PHB,272
+1,Sanctuary,Abjuration,1,1,1,0,0,1,0,0,0,0,0,0,0,PHB,272
+2,Scorching Ray,Evocation,1,1,0,0,0,0,0,0,0,1,0,1,0,PHB,273
+5,Scrying,Divination,1,1,2,0,1,1,1,0,0,0,1,1,1,PHB,273
+1,Searing Smite,Evocation,1,0,0,0,0,0,0,1,0,0,0,0,1,PHB,274
+2,See Invisibility,Divination,1,1,1,0,1,0,0,0,0,1,0,1,0,PHB,274
